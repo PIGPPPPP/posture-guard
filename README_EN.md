@@ -1,6 +1,8 @@
-# Lift · Posture Guard
+# 抬举 (Posture Guard)
 
 > Lift yourself up, once a day.
+
+> ⚠️ **Platform note**: **Android only** at the moment. Development and testing were done on a **Xiaomi 17 running HyperOS**; there is **no iOS version**. Other Android brands can sideload the same APK, but the OEM-specific switches in the setup guide need to be located in that brand's own settings. iOS is unlikely to happen due to system restrictions.
 
 A tiny "don't slouch" reminder for Android. No network, no uploads, no contacts or location access — it only uses the built-in gravity sensor to guess whether you are looking down, and gives you a gentle nudge when you are.
 
@@ -22,13 +24,12 @@ It uses the phone's orientation as a *proxy* for your posture. This is not medic
 
 ## Screenshots
 
-**Normal state · guard on (3.2°)**
-
-![Guard screen, normal state](screenshots/01-guard-normal.jpg)
-
-**Slouch detected · overlay banner (42.6°)**
-
-![Slouch reminder state](screenshots/02-low-head-alert.jpg)
+<table>
+  <tr>
+    <td align="center" width="50%"><b>Normal · guard on (3.2°)</b><br><img src="screenshots/01-guard-normal.jpg" alt="Guard screen, normal state" width="280"></td>
+    <td align="center" width="50%"><b>Slouch detected · banner (42.6°)</b><br><img src="screenshots/02-low-head-alert.jpg" alt="Slouch reminder state" width="280"></td>
+  </tr>
+</table>
 
 ## Features
 
