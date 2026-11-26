@@ -1,6 +1,8 @@
-# 抬举 · Posture Guard
+# 抬举（Posture Guard）
 
 > 每天，把自己抬起来一次。
+
+> ⚠️ **平台说明**：目前**只有 Android 版本**，开发和测试环境为**小米 17 手机（HyperOS）**，**暂无苹果 iOS 版本**。其他品牌安卓机型可按相同方式侧载安装，但权限向导里的小米私有开关需要到对应品牌设置中找同类项；iOS 因系统限制短期内不会有。
 
 一个跑在 Android 手机上的「低头提醒」小工具。它不联网、不上传、不读通讯录和位置，只用手机自带的重力传感器判断你有没有低头；低头了就在屏幕上轻轻提醒你一下。
 
@@ -22,13 +24,12 @@
 
 ## 界面截图
 
-**正常状态 · 守护中（3.2°）**
-
-![守护页正常状态](screenshots/01-guard-normal.jpg)
-
-**低头提醒 · 悬浮条弹出（42.6°）**
-
-![低头提醒状态](screenshots/02-low-head-alert.jpg)
+<table>
+  <tr>
+    <td align="center" width="50%"><b>正常状态 · 守护中（3.2°）</b><br><img src="screenshots/01-guard-normal.jpg" alt="守护页正常状态" width="280"></td>
+    <td align="center" width="50%"><b>低头提醒 · 悬浮条弹出（42.6°）</b><br><img src="screenshots/02-low-head-alert.jpg" alt="低头提醒状态" width="280"></td>
+  </tr>
+</table>
 
 ## 主要功能
 
