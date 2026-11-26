@@ -1,0 +1,22 @@
+# 签名私钥与本机配置 —— 绝不入库
+keystore/
+*.jks
+local.properties
+
+# 构建产物
+.gradle/
+build/
+app/build/
+tools/
+*.apk
+!apk/posture-guard-v1.3.apk   # 唯一例外：发布用的安装包
+
+# IDE / 系统
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+*.tmp

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">抬举</string>
+    <string name="guide_title">权限自检与设置向导</string>
+    <string name="guide_intro">小米 HyperOS 会主动清理后台应用。请逐项确认下面 8 项设置，否则前台服务可能被系统冻结，导致不再提醒。带「✓」的项目由系统自动检测；「需手动确认」是小米私有开关，App 无法读取，请按路径手动检查。系统更新后这些开关可能被重置，建议回来复查一次。</string>
+    <string name="guide_footer">说明：本应用不联网、不读取通讯录/位置/文件、不上传任何数据，仅使用重力传感器判断手机倾角。通知栏会常驻一条「抬举」通知，这是 Android 对前台服务的强制要求，无法彻底隐藏。升级后若桌面图标或名称仍是旧的，可清一次桌面缓存或重启桌面再看，不影响功能。</string>
+    <string name="main_hint">竖直拿好＝正常，歪着或放平＝低头。下面的滑杆松手就生效，不用保存。</string>
+
+    <string name="main_notice">自启动、省电策略「无限制」、后台任务锁定、后台弹出界面，这 4 项属于小米私有开关，需要你在系统设置里手动开启，App 无法读取也无法代开；不设置的话，手机重启或一键清理后台后可能不再继续守护。点此逐项自检。</string>
+    <string name="main_notice_go">去逐项自检</string>
+    <string name="main_notice_dismiss">不再提示</string>
+    <string name="tip_collapsed">首次使用？点一下，把权限配齐</string>
+
+    <string name="group_status">状态</string>
+    <string name="group_remind">提醒方式</string>
+    <string name="group_appearance">悬浮条外观</string>
+    <string name="group_common">常用调节</string>
+    <string name="group_scope">监测范围与守护入口</string>
+    <string name="group_expert">专家选项</string>
+    <string name="group_common_hint">往左拖更灵敏，往右拖更迟钝。松手就生效，不确定就别动。</string>
+    <string name="group_advanced_hint">这些一般不用改。每项都标了默认值，长按标题可以把这一项恢复默认。</string>
+    <string name="group_appearance_hint">低头时盖在屏幕上的那一条。改完下面立刻能看到样子，宽度和位置只影响它，不影响通知。</string>
+
+    <string name="overlay_text_hint">写一句提醒自己的话</string>
+    <string name="preset_default">默认</string>
+    <string name="preset_funny">抬举一下</string>
+    <string name="preset_casual">别埋着头</string>
+    <string name="overlay_text_default">请抬起手机 · 别低头</string>
+    <string name="overlay_text_funny">抬举一下，脖子谢谢您</string>
+    <string name="overlay_text_casual">别埋着头啦～</string>
+    <string name="overlay_color_title">横幅底色</string>
+    <string name="overlay_color_hint">点一个喜欢的颜色，字会自动换成看得清的颜色</string>
+    <string name="btn_try_show">在真实屏幕上试一下</string>
+    <string name="toast_no_overlay">还没开悬浮窗权限，已用上方预览代替；可到设置向导开启</string>
+    <string name="swatch_1">墨蓝灰</string>
+    <string name="swatch_2">赭橘</string>
+    <string name="swatch_3">松绿</string>
+    <string name="swatch_4">棕褐</string>
+    <string name="swatch_5">雾蓝</string>
+    <string name="swatch_6">酒红</string>
+    <string name="swatch_7">近黑</string>
+    <string name="swatch_8">米白</string>
+
+    <string name="guide_ack_btn">我已按上面 8 项设置完成（不再提示）</string>
+    <string name="guide_recheck_btn">系统更新后点此重新检查</string>
+    <string name="guide_ack_toast">已记录，返回主界面后顶部提示条将不再显示</string>
+    <string name="guide_recheck_toast">已重置，返回主界面可再次看到提示条，建议重新核对 8 项</string>
+
+    <string name="ongoing_not_closable">常驻通知为 Android 前台服务强制要求，无法关闭；可关闭的只是上面的按钮与文案。</string>
+    <string name="channel_ongoing_name">抬举·守护状态</string>
+    <string name="channel_sound_name">抬举·有声</string>
+    <string name="channel_silent_name">抬举·静音</string>
+    <string name="guide_upgrade_channel_hint">升级说明：本版本用「抬举·有声 / 静音」两条通知渠道来实现提示音开关，旧版渠道不再使用。若曾手动改过通知声音或重要性，那些设置不会自动迁移，可在 设置 → 通知与状态栏 → 本应用 中重新确认；系统设置里仍显示旧渠道名属缓存，不影响功能。</string>
+
+    <!-- v3.1 三页导航 + 仪式页文案 -->
+    <string name="tab_guard">守护</string>
+    <string name="tab_remind">提醒</string>
+    <string name="tab_tune">调校</string>
+    <string name="ritual_eyebrow">每天，把自己抬起来一次</string>
+    <string name="ritual_title">抬举</string>
+    <string name="ritual_hint_on">轻触圆环 · 收起守护</string>
+    <string name="ritual_hint_off">轻触圆环 · 开始守护</string>
+    <string name="ritual_state_on">守护中</string>
+    <string name="ritual_state_off">已暂停</string>
+    <!-- 每日一句：按「一年中的第几天」取模，每天轮换，不联网、不写存储 -->
+    <string-array name="mantras">
+        <item>你不必一直挺直，只要记得抬起来。</item>
+        <item>脖子记得每一次低头，也记得你把它抬起。</item>
+        <item>屏幕之外，还有远方和天空。</item>
+        <item>抬一下头，世界就宽了一寸。</item>
+        <item>别让今天的你，输给昨天的低头。</item>
+        <item>每一次抬举，都是对自己的温柔。</item>
+        <item>低头是本能，抬头是选择。</item>
+    </string-array>
+    <string name="mantra_rest">先歇一会儿。想继续了，再点亮它。</string>
+</resources>

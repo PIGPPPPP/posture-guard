@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 旧版/保守回退：48dp 圆形底 + 同款低头侧面剪影 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.4444" android:scaleY="0.4444">
+        <path
+            android:fillColor="#FFF2EBDD"
+            android:pathData="M 54,4 A 50,50 0 1,0 54,104 A 50,50 0 1,0 54,4 Z" />
+        <path
+            android:fillColor="#FF1A1A17"
+            android:fillType="evenOdd"
+            android:pathData="M 62,22 C 48,20 37,29 34,41 C 31,47 30,50 33,53 C 35,56 39,57 41,59 C 43,63 45,66 44,70 C 36,72 27,78 24,87 L 88,87 C 88,77 84,70 76,65 C 71,58 68,53 68,46 C 70,35 68,25 62,22 Z" />
+    </group>
+</vector>

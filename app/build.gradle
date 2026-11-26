@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.posture'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.posture'
+        minSdk 29
+        targetSdk 35
+        versionCode 5
+        versionName '1.3'
+    }
+
+    // 签名可选：仓库不含签名私钥。
+    // 作者本机把 posture.jks 放在 ../keystore/ 即可产出与发布版相同签名的包；
+    // 其他人在没有 keystore 的情况下也能直接 assembleDebug 编译（得到未签名包）。
+    signingConfigs {
+        posture {
+            storeFile file('../keystore/posture.jks')
+            storePassword 'posture2026'
+            keyAlias 'posture'
+            keyPassword 'posture2026'
+        }
+    }
+
+    buildTypes {
+        debug {
+            if (file('../keystore/posture.jks').exists()) {
+                signingConfig signingConfigs.posture
+            }
+        }
+        release {
+            minifyEnabled false
+            if (file('../keystore/posture.jks').exists()) {
+                signingConfig signingConfigs.posture
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // 零第三方依赖：仅使用 Android 平台 API
+}

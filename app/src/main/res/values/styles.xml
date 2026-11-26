@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 平台主题，不用 AppCompat；暖近白底、零窗口动画（动效全部由代码编排） -->
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/brand</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/bg_root</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+    </style>
+</resources>

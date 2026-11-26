@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v3 设计令牌：暖调近白底 + 近黑墨字 + 单一赭橘强调色 -->
+    <color name="bg_root">#FAF8F4</color>
+    <color name="text_main">#1A1A17</color>
+    <color name="text_sub">#6B6A64</color>
+    <color name="brand">#C25B2E</color>
+    <color name="divider">#ECE8E0</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="tip_bg">#F6EFE3</color>
+
+    <!-- 悬浮条：默认墨蓝灰，文字色按底色亮度派生 -->
+    <color name="overlay_text_light">#FFFFFFFF</color>
+    <color name="overlay_text_dark">#FF1A1A17</color>
+
+    <!-- 8 色预设色卡（顺序与 OverlayStyle.SWATCHES 一致） -->
+    <color name="swatch_1">#FF2B3240</color>
+    <color name="swatch_2">#FFC25B2E</color>
+    <color name="swatch_3">#FF2E5A4B</color>
+    <color name="swatch_4">#FF7A4B2A</color>
+    <color name="swatch_5">#FF3A5673</color>
+    <color name="swatch_6">#FF7A2E3A</color>
+    <color name="swatch_7">#FF1A1A17</color>
+    <color name="swatch_8">#FFF2EBDD</color>
+
+    <!-- v3.1 深色仪式舞台：暖调近黑 + 暖白字 + 提亮一档的赭橘（同一强调色的暗底适配） -->
+    <color name="stage_top">#FF1E1A14</color>
+    <color name="stage_bottom">#FF100E0B</color>
+    <color name="stage_text">#FFF5EFE4</color>
+    <color name="stage_sub">#FFA49B8C</color>
+    <color name="stage_accent">#FFE8954F</color>
+    <color name="hero_off">#FF322E27</color>
+    <color name="hero_off_ring">#FF6E6659</color>
+    <color name="nav_bg">#FFFBF9F5</color>
+    <color name="nav_inactive">#FF8B877E</color>
+</resources>

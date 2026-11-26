@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 守护：一只向上托举的手 + 抬头的小人，抽象为「举」的意象 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 抬头的小人：头 + 肩 -->
+    <path
+        android:pathData="M12,4.2 A1.9,1.9 0 1,1 12,8 A1.9,1.9 0 1,1 12,4.2 Z M7.6,19 C7.6,14.8 9.5,12.4 12,12.4 C14.5,12.4 16.4,14.8 16.4,19"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- 上方托举的弧线 -->
+    <path
+        android:pathData="M5.5,5.8 C8.3,3.2 15.7,3.2 18.5,5.8"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+</vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圆环中心的「抬举」符号：一条抬头弧线 + 向上箭头，暖白描边 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- 抬起的头与肩（侧面剪影的极简抽象） -->
+    <path
+        android:pathData="M32,15 A6.4,6.4 0 1,1 32,27.8 A6.4,6.4 0 1,1 32,15 Z"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M19,49 C19,38.4 24.6,32 32,32 C39.4,32 45,38.4 45,49"
+        android:fillColor="#FFFFFFFF" />
+    <!-- 向上箭头（抬举的「举」） -->
+    <path
+        android:pathData="M32,9 L32,2 M26,7 L32,1 L38,7"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

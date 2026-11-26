@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 提醒：一条悬浮横幅 + 一声铃，抽象为「一条被点亮的提示」 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M3.5,6.2 H20.5 V13.8 H3.5 Z"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.7"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M6.8,10 H12.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round" />
+    <!-- 用一个圆角很短的 path 画圆点（vector 不支持 circle 标签的 cx/cy/r 写法） -->
+    <path
+        android:pathData="M16.6,8.6 A1.5,1.5 0 1,1 16.6,11.6 A1.5,1.5 0 1,1 16.6,8.6 Z"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M12,16.5 V19"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round" />
+</vector>

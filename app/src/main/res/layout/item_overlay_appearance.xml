@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 悬浮条外观编辑行：文案、预设、色卡、真实屏幕试显；数值项复用 item_number_row 动态添加 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/space_2"
+    android:paddingBottom="@dimen/space_3">
+
+    <EditText
+        android:id="@+id/overlay_text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/overlay_text_hint"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLength="24"
+        android:singleLine="true"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/text_body" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/preset_default"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:minHeight="@dimen/min_touch"
+            android:text="@string/preset_default"
+            android:textColor="@color/text_sub"
+            android:textSize="@dimen/text_caption" />
+
+        <Button
+            android:id="@+id/preset_funny"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:minHeight="@dimen/min_touch"
+            android:text="@string/preset_funny"
+            android:textColor="@color/text_sub"
+            android:textSize="@dimen/text_caption" />
+
+        <Button
+            android:id="@+id/preset_casual"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:minHeight="@dimen/min_touch"
+            android:text="@string/preset_casual"
+            android:textColor="@color/text_sub"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_3"
+        android:text="@string/overlay_color_title"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/text_body"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_1"
+        android:text="@string/overlay_color_hint"
+        android:textColor="@color/text_sub"
+        android:textSize="@dimen/text_caption" />
+
+    <LinearLayout
+        android:id="@+id/swatch_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_try_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_3"
+        android:background="?android:attr/selectableItemBackground"
+        android:minHeight="@dimen/min_touch"
+        android:text="@string/btn_try_show"
+        android:textColor="@color/brand"
+        android:textSize="@dimen/text_body" />
+</LinearLayout>

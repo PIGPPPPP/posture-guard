@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 底部三 tab：赭橘=选中，灰=未选中（状态由代码 setSelected 驱动） -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/brand" />
+    <item android:color="@color/nav_inactive" />
+</selector>

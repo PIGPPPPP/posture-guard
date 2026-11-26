@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主开关内芯（已暂停）：冷灰径向渐变，克制不发光 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="100%"
+        android:centerX="0.38"
+        android:centerY="0.32"
+        android:startColor="#FF474239"
+        android:centerColor="#FF37332C"
+        android:endColor="#FF26231E" />
+</shape>

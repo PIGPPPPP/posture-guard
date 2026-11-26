@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 色卡基础圆点：运行时 mutate() 后 setColor / setStroke，8 个色点共用一份定义 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/swatch_1" />
+    <size
+        android:width="@dimen/swatch_size"
+        android:height="@dimen/swatch_size" />
+</shape>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 间距梯度：只用这七档，不用零散数值 -->
+    <dimen name="space_1">4dp</dimen>
+    <dimen name="space_2">8dp</dimen>
+    <dimen name="space_3">12dp</dimen>
+    <dimen name="space_4">16dp</dimen>
+    <dimen name="space_5">24dp</dimen>
+    <dimen name="space_6">32dp</dimen>
+    <dimen name="space_7">40dp</dimen>
+
+    <!-- 字阶：六级封顶 -->
+    <dimen name="text_hero">44sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_label">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_micro">11sp</dimen>
+
+    <!-- 形状与触摸目标 -->
+    <dimen name="radius_overlay">20dp</dimen>
+    <dimen name="radius_track">2dp</dimen>
+    <dimen name="min_touch">48dp</dimen>
+    <dimen name="thumb_size">16dp</dimen>
+    <dimen name="swatch_size">28dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- 悬浮条默认外观（与 v2 硬编码值一致） -->
+    <dimen name="overlay_pad">12dp</dimen>
+    <dimen name="overlay_y">28dp</dimen>
+    <dimen name="overlay_text_sp">15sp</dimen>
+
+    <!-- 动效时长（毫秒），代码从资源读取，避免散落魔数 -->
+    <integer name="dur_fast">160</integer>
+    <integer name="dur_base">320</integer>
+    <integer name="dur_fade_in">260</integer>
+    <integer name="dur_fade_out">180</integer>
+    <integer name="entry_stagger">80</integer>
+
+    <!-- v3.1 仪式页专用：英雄开关与底部导航 -->
+    <dimen name="hero_switch">180dp</dimen>
+    <dimen name="hero_halo">228dp</dimen>
+    <dimen name="hero_icon">76dp</dimen>
+    <dimen name="text_ritual">32sp</dimen>
+    <dimen name="text_mantra">16sp</dimen>
+    <dimen name="nav_height">64dp</dimen>
+    <dimen name="stage_radius">28dp</dimen>
+    <integer name="dur_breath">2400</integer>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主开关内芯（守护中）：暖橘径向渐变，从中心亮到边缘沉 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="100%"
+        android:centerX="0.38"
+        android:centerY="0.32"
+        android:startColor="#FFEFA05C"
+        android:centerColor="#FFE0813C"
+        android:endColor="#FFC25B2E" />
+</shape>
